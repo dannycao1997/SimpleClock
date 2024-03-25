@@ -50,7 +50,7 @@ public class SimpleClock extends JFrame {
             setTimer();
         }
     
-        public void setTimer() {
+        public void setTimer() { // setTimer method
             while (true) {
                 time = timeFormat.format(Calendar.getInstance().getTime());
                 timeLabel.setText(time);
